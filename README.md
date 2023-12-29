@@ -1,6 +1,6 @@
 # Cleaning Project
 
-## Make Heights the same Value
+## Making Heights the same Value
 
 ### Turning centimeters into inches
 ```
