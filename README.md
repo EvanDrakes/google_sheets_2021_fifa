@@ -2,14 +2,14 @@
 
 ### Make Heights the same Value
 *turning centimeters into inches*
-=SUBSTITUTE(M2,"cm"," ",1)
-=CONVERT(N2,"cm","in")
-=ROUND(O2, 1)
+> =SUBSTITUTE(M2,"cm"," ",1)
+> =CONVERT(N2,"cm","in")
+> =ROUND(O2, 1)
 *turning feet'inches" into inches*
-=SUBSTITUTE(M863,"'","", 1)
-=SUBSTITUTE(N863, """","", 1)
-=MULTIPLY(LEFT(O863, 1), 12)
-=CONCATENATE(ADD(RIGHT(O863, 1),P863),"in") 
+> =SUBSTITUTE(M863,"'","", 1)
+> =SUBSTITUTE(N863, """","", 1)
+> =MULTIPLY(LEFT(O863, 1), 12)
+> =CONCATENATE(ADD(RIGHT(O863, 1),P863),"in") 
 
 ### Seperating Month, Day, Year
 =TEXT(V2,"mmm")
