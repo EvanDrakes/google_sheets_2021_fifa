@@ -2,13 +2,13 @@
 
 ## Making Heights the same Value
 
-### Turning centimeters into inches
+**Turning centimeters into inches**
 ```
 =SUBSTITUTE(M2,"cm"," ",1)
 =CONVERT(N2,"cm","in")
 =ROUND(O2, 1)
 ```
-### Turning feet'inches" into inches
+**Turning feet'inches" into inches**
 ```
 =SUBSTITUTE(M863,"'","", 1)
 =SUBSTITUTE(N863, """","", 1)
